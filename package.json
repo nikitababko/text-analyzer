@@ -29,7 +29,7 @@
     "start:dev": "vite-node src/index.ts",
     "start:example": "vite-node src/example.ts",
     "build": "tsc -p tsconfig.production.json",
-    "prepare": "husky"
+    "prepare": "npx husky install"
   },
   "devDependencies": {
     "@commitlint/cli": "19.4.1",
