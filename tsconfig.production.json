@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "lib": [
+      "es6",
+      "es2021",
+      "dom"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "declarationDir": "dist",
+    "outDir": "dist",
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/index.ts",
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "src/**/*.test.ts",
+    "src/index.dev"
+  ]
+}

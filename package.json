@@ -1,0 +1,59 @@
+{
+  "name": "@nikitababko/text-analyzer",
+  "description": "Text analyzer",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE.md",
+    "README.md",
+    "package.json"
+  ],
+  "author": "Nikita Babko <niki.babko@gmail.com>",
+  "keywords": [
+    "text analysis",
+    "word count",
+    "character count",
+    "text processing",
+    "word frequency",
+    "string analysis",
+    "symbol counter",
+    "text statistics",
+    "text tools",
+    "text parsing"
+  ],
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "start:dev": "vite-node src/index.ts",
+    "start:example": "vite-node src/example.ts",
+    "build": "tsc -p tsconfig.production.json",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.4.1",
+    "@commitlint/config-conventional": "19.4.1",
+    "commitizen": "4.3.0",
+    "cz-customizable": "7.2.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-airbnb-typescript": "18.0.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
+    "eslint-plugin-unicorn": "55.0.0",
+    "husky": "9.1.5",
+    "lint-staged": "15.2.9",
+    "prettier": "3.3.3",
+    "typescript": "5.5.3",
+    "vite": "5.4.1",
+    "vite-node": "2.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "commitizen.config.cjs"
+    }
+  }
+}
